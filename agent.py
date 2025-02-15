@@ -14,7 +14,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 app = FastAPI()
 
 # Configurations (adjust as needed)
-CHROME_PATH = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+CHROME_PATH = r"/usr/bin/google-chrome-stable"
 MODEL_NAME = 'gemini-2.0-flash-exp'
 API_KEY = SecretStr("AIzaSyC59TDceV-5GBV7KjE_7cOZqzdZMlGx3I0")
 
